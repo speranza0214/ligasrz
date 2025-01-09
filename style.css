@@ -206,6 +206,9 @@ tr:nth-child(even) {
   width: 100%; /* コンテナの幅 */
   overflow-x: auto; /* 横スクロール許可 */
   white-space: nowrap; /* 折り返し防止 */
+  th, td {
+    width: 60px; 
+  }
 }
 
 .noto-sans-jp-<uniquifier> {
