@@ -1,1 +1,259 @@
+@charset "UTF-8";
 
+body{
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.p2{
+  background-color: #cccccc;
+  width: 100%;
+  height: auto;
+}
+
+p2 {
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+}
+
+p6 {
+  font-size: 15px;
+  text-align: right;
+  padding: 10px;
+}
+
+.p3{
+  background-color: #bbbbbb;
+  width: 100%;
+  height: auto;
+}
+
+p3 {
+  padding: 10px;
+}
+
+
+p4 {
+  padding: 10px;
+}
+
+p5 {
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  color: white;
+  fontsize: 40px;  
+}
+
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+  float: right;
+  display: flex;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;/* 重なり順を一番上にする */
+  cursor: pointer;
+}
+
+/* ハンバーガーメニューのアイコン */
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* 三本線の一番上の棒の位置調整 */
+.drawer_open span:before {
+  bottom: 8px;
+}
+
+/* 三本線の一番下の棒の位置調整 */
+.drawer_open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer_input:checked ~ .drawer_open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer_input:checked ~ .drawer_open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#drawer_input:checked ~ .drawer_open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+  
+/* メニューのデザイン*/
+.nav_content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: black;
+  color: white;
+  transition: .5s;
+}
+
+/* メニュー黒ポチを消す */
+.nav_list {
+  list-style: none;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .nav_content {
+  left: 0;/* メニューを画面に入れる */
+}
+
+table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+th, td {
+  width: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  background-color: white;
+  color: black;
+}
+
+th {
+  background-color: #b0c4de;
+  color: white;
+}
+
+tr:nth-child(even) {
+      background-color: #dddddd; /* 偶数行の色分け */
+    }
+
+.diagonal-cell {
+  position: relative; /* 相対位置指定 */
+    }
+
+.diagonal-cell::before {
+  content: ""; /* 擬似要素 */
+  position: absolute; /* 絶対位置指定 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent 49%, black 50%, black 51%, transparent 52%);
+    }
+
+.table1{
+  background-image: url('efb_image0.jpeg');
+  background-size: cover; /* 画面全体にフィット */
+  background-repeat: no-repeat; /* 繰り返しを防ぐ */
+  background-position: center center; /* 中央揃え */
+  height: 600px; /* ビューポート全体の高さに設定 */
+  margin: 0; /* 余白なし */
+  background-attachment: fixed; /* 背景固定 */
+  width: 100%; /* コンテナの幅 */
+  overflow-x: auto; /* 横スクロール許可 */
+  white-space: nowrap; /* 折り返し防止 */
+}
+
+.table2{
+  background-image: url('stadiummono.png');
+  background-size: cover; /* 画面全体にフィット */
+  background-repeat: no-repeat; /* 繰り返しを防ぐ */
+  background-position: center center; /* 中央揃え */
+  height: 1000px; /* ビューポート全体の高さに設定 */
+  margin: 0; /* 余白なし */
+  background-attachment: fixed; /* 背景固定 */
+  width: 100%; /* コンテナの幅 */
+  overflow-x: auto; /* 横スクロール許可 */
+  white-space: nowrap; /* 折り返し防止 */
+}
+
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.menu a{
+  color: white;
+}
+
+.menu a: hover{
+  color: white;
+}
+
+.reg {
+  background-image: url('efb_image1.jpeg');
+  background-size: cover; /* 画面全体にフィット */
+  background-repeat: no-repeat; /* 繰り返しを防ぐ */
+  background-position: center center; /* 中央揃え */
+  height: 500px; /* ビューポート全体の高さに設定 */
+  margin: 0; /* 余白なし */
+  background-attachment: fixed; /* 背景固定 */
+}
+
+.logo{
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
+.footer{
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
