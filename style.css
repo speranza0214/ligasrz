@@ -138,7 +138,7 @@ header{
   left: 0;/* メニューを画面に入れる */
 }
 
-table {
+/*table {
   width: 100%;
   margin: 20px;
   border-collapse: collapse;
@@ -162,7 +162,7 @@ td {
 th {
   background-color: #b0c4de;
   color: white;
-}
+}*/
 
 tr:nth-child(even) {
       background-color: #dddddd; /* 偶数行の色分け */
@@ -193,6 +193,32 @@ tr:nth-child(even) {
   width: 100%; /* コンテナの幅 */
   overflow-x: auto; /* 横スクロール許可 */
   white-space: nowrap; /* 折り返し防止 */
+    table {
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #000;
+  }
+  
+  th, td {
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    background-color: white;
+    color: black;
+  }
+  
+  th {
+    background-color: #b0c4de;
+    color: white;
+  }
+
 }
 
 .table2{
@@ -206,8 +232,30 @@ tr:nth-child(even) {
   width: 100%; /* コンテナの幅 */
   overflow-x: auto; /* 横スクロール許可 */
   white-space: nowrap; /* 折り返し防止 */
+      table {
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #000;
+  }
+  
   th, td {
-    width: 60px; 
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    background-color: white;
+    color: black;
+  }
+  
+  th {
+    background-color: #b0c4de;
+    color: white;
   }
 }
 
