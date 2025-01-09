@@ -9,6 +9,9 @@ body{
   font-style: normal;
 }
 
+a img {
+      border: none; /* 青い枠線を削除 */
+}
 .p2{
   background-color: #696969;
   width: 100%;
