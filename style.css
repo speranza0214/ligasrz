@@ -52,8 +52,6 @@ p5 {
 }
 
 header{
-  width: 100%;
-  height: auto;
   background-color: #000000;
   color: white;
   fontsize: 40px;  
@@ -243,6 +241,12 @@ tr:nth-child(even) {
   height: 500px; /* ビューポート全体の高さに設定 */
   margin: 0; /* 余白なし */
   background-attachment: fixed; /* 背景固定 */
+}
+
+#pattern1 {
+  background-color:#696969;
+  font-size: 15px;
+  padding: 15px;
 }
 
 .logo{
