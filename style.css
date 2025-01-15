@@ -53,8 +53,7 @@ p5 {
 
 header{
   background-color: #000000;
-  color: white;
-  fontsize: 40px;  
+  padding: 10px;
 }
 
 /* チェックボックスを非表示にする */
