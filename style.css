@@ -175,7 +175,7 @@ th {
 }
 
 table tr:nth-child(even) td {
-      background-color: #dddddd; /* 偶数行の色分け */
+      background-color: #f0ffff; /* 偶数行の色分け */
     }
 
 .diagonal-cell {
