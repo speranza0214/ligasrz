@@ -175,7 +175,7 @@ th {
 }
 
 table tr:nth-child(odd) td {
-      background-color: #f0ffff; /* 偶数行の色分け */
+      background-color: #f5f5f5; /* 偶数行の色分け */
     }
 
 .diagonal-cell {
