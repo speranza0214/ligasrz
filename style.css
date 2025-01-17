@@ -174,7 +174,7 @@ th {
   color: white;
 }
 
-table tr:nth-child(even) td {
+table tr:nth-child(odd) td {
       background-color: #f0ffff; /* 偶数行の色分け */
     }
 
