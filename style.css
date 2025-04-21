@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-  background-color: #1760a0;
+  background-color: #305089;
   color: white;
   font-family: "Noto Sans JP", serif;
   font-optical-sizing: auto;
@@ -52,14 +52,14 @@ p5 {
 }
 
 header{
-  background-color: #1760a0;
+  background-color: #305089;
   padding: 0;
   width: 100%;
   height: 65px;
 }
 
 .header{
-  background-color: #1760a0;
+  background-color: #305089;
   padding: 0;
   width: 100%;
   height: 65px;
@@ -271,7 +271,7 @@ table tr:nth-child(odd) td {
 }
 
 footer {
-  background-color: #1760a0;
+  background-color: #305089;
   padding: 0;
 }
 
