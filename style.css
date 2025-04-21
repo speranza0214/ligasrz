@@ -59,7 +59,10 @@ header{
 }
 
 .header{
-  background-color: #1e90ff;
+  background-color: #4682b4;
+  padding: 0;
+  width: 100%;
+  height: 65px;
 }
 
 .header img{
@@ -268,8 +271,8 @@ table tr:nth-child(odd) td {
 }
 
 footer {
-  background-color: black;
-  padding: 10px;
+  background-color: #4682b4;
+  padding: 0;
 }
 
 .footer{
