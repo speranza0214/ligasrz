@@ -66,9 +66,9 @@ header{
 }
 
 .header img{
-  width: 160px;
+  width: 170px;
   height: 50px;
-  padding: 0px;
+  padding: 10px;
 }
 
 /* チェックボックスを非表示にする */
