@@ -13,7 +13,7 @@ a img {
       border: none; /* 青い枠線を削除 */
 }
 .p2{
-  background-color: #808080;
+  background-color: #eaf6fd;
   width: 100%;
   height: auto;
 }
@@ -176,8 +176,8 @@ td {
 }
 
 th {
-  background-color: #b0c4de;
-  color: white;
+  background-color: #fff8cf;
+  color: black;
 }
 
 table tr:nth-child(odd) td {
@@ -259,7 +259,7 @@ table tr:nth-child(odd) td {
 }
 
 #pattern1 {
-  background-color:#696969;
+  background-color: #eaf6fd;
   font-size: 15px;
   padding: 15px;
 }
