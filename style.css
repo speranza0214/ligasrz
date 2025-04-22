@@ -14,6 +14,7 @@ a img {
 }
 .p2{
   background-color: #eaf6fd;
+  color: #305089;
   width: 100%;
   height: auto;
 }
@@ -26,6 +27,7 @@ p2 {
 
 p6 {
   font-size: 15px;
+  color: #305089;
   text-align: right;
   padding: 10px;
 }
@@ -46,6 +48,7 @@ p4 {
 }
 
 p5 {
+  color: #305089;
   font-size: 24px;
   text-align: center;
   padding: 10px;
@@ -199,17 +202,19 @@ table tr:nth-child(odd) td {
     }
 
 .table1{
-  background-image: url('efb_image0.jpeg');
-  background-size: cover; /* 画面全体にフィット */
-  background-repeat: no-repeat; /* 繰り返しを防ぐ */
-  background-position: center center; /* 中央揃え */
-  height: 600px; /* ビューポート全体の高さに設定 */
-  margin: 0; /* 余白なし */
-  background-attachment: fixed; /* 背景固定 */
-  width: 100%; /* コンテナの幅 */
-  overflow-x: auto; /* 横スクロール許可 */
-  white-space: nowrap; /* 折り返し防止 */
-
+  background-color: #eaf6fd;
+  <!--
+    background-image: url('efb_image0.jpeg');
+    background-size: cover; /* 画面全体にフィット */
+    background-repeat: no-repeat; /* 繰り返しを防ぐ */
+    background-position: center center; /* 中央揃え */
+    height: 600px; /* ビューポート全体の高さに設定 */
+    margin: 0; /* 余白なし */
+    background-attachment: fixed; /* 背景固定 */
+    width: 100%; /* コンテナの幅 */
+    overflow-x: auto; /* 横スクロール許可 */
+    white-space: nowrap; /* 折り返し防止 */
+  -->
 }
 
 .table2{
@@ -249,17 +254,22 @@ table tr:nth-child(odd) td {
 }
 
 .reg {
-  background-image: url('efb_image1.jpeg');
-  background-size: cover; /* 画面全体にフィット */
-  background-repeat: no-repeat; /* 繰り返しを防ぐ */
-  background-position: center center; /* 中央揃え */
-  height: 500px; /* ビューポート全体の高さに設定 */
-  margin: 0; /* 余白なし */
-  background-attachment: fixed; /* 背景固定 */
+  background-color: #eaf6fd;
+  color: #305089;
+  <!--
+    background-image: url('efb_image1.jpeg');
+    background-size: cover; /* 画面全体にフィット */
+    background-repeat: no-repeat; /* 繰り返しを防ぐ */
+    background-position: center center; /* 中央揃え */
+    height: 500px; /* ビューポート全体の高さに設定 */
+    margin: 0; /* 余白なし */
+    background-attachment: fixed; /* 背景固定 */
+  -->
 }
 
 #pattern1 {
   background-color: #eaf6fd;
+  color: #305089;
   font-size: 15px;
   padding: 15px;
 }
