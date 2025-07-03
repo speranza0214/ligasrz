@@ -73,7 +73,25 @@ header{
   height: 50px;
   padding: 10px;
 }
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  animation: slide 0.5s ease-in-out;
+}
 
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
 /* チェックボックスを非表示にする */
 .drawer_hidden {
   display: none;
